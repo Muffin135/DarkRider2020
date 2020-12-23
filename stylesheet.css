@@ -3,8 +3,126 @@
   margin: 0;
   padding: 0;
   background-color: black;
+  font-family: 'Bebas Neue', arial;
 }
 
 html {
   font-size: 62.5%;
+}
+
+a {
+	background-color: inherit;
+	color: inherit;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	height: 20em;
+	width: 100%;
+	border: 1px solid green;
+}
+
+.flex-center {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.top-container {
+	height: 20em;
+	width: 100%;
+	border: 1px solid red;
+}
+
+.middle-container {
+	height: auto;
+	min-height: 35em;
+	width: 100%;
+	border: 1px solid blue;
+}
+
+.logo {
+	border: 1px solid black;
+	background-color: white;
+	height: 50%;
+	width: 100%;
+}
+
+#page-title {
+	background-color: inherit;
+	border: 1px solid black;
+	color: black;
+	font-size: 5em;
+}
+
+#motto {
+	height: 35%;
+	width: 100%;
+	background-color: inherit;
+	color: black;
+	text-align: center;
+	font-size: 2em;
+}
+
+.menu-bar {
+	height: 50%;
+	width: 100%;
+	background-color: white;
+}
+
+.menu {
+	background-color: inherit;
+	border: 1px solid black;
+	list-style-type: none;
+	width: 100%;
+	height: 100%;
+}
+
+.menu-item {
+	color: black;
+	border: 1px solid black;
+	background-color: inherit;
+	margin: 1em 1em;
+	font-size: 3em;
+	transition: 0.5s;
+}
+
+.menu-item:hover {
+	box-shadow: 0.25em 0.25em black;
+}
+
+.footer-column {
+	height: 15em;
+	width: 30%;
+	margin: auto;
+	background-color: white;
+	color: black;
+}
+
+.footer-header {
+	background-color: inherit;
+	border: 1px solid black;
+	font-size: 3em;
+	margin: auto;
+}
+
+.footer-menu {
+	background-color: inherit;
+	list-style-type: none;
+	margin: auto;
+	border: 1px solid black;
+}
+
+.footer-menu-item {
+	background-color: inherit;
+	border: 1px solid black;
+	font-size: 2em;
+	margin: auto;
 }
