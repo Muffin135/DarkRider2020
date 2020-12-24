@@ -82,7 +82,11 @@ footer {
 }
 
 .menu-button {
-	
+	font-size: 2em;
+	color: black;
+	background-color: red;
+	height: 0%;
+	width: 0%;
 }
 
 .menu-bar {
@@ -151,8 +155,14 @@ footer {
 		width: 100%;
 	}
 	
-	.menu{
+	.menu {
 		display: none;
+	}
+	
+	.menu-button {
+		width: 10%;
+		height: 55%;
+		border: 2px solid black;
 	}
 	
 	.menu-item {
