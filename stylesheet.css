@@ -24,7 +24,7 @@ body {
 
 footer {
 	height: auto;
-	min-height: 20em;
+	min-height: 15em;
 	width: 100%;
 	border: 1px solid green;
 }
