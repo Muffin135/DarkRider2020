@@ -42,18 +42,17 @@ footer {
 }
 
 .top-container {
-	height: auto;
-	min-height: 20em;
+	height: 20em;
 	width: 100%;
 	border: 1px solid red;
 	position: fixed;
 	top: 0;
-	left: 5;
+	left: 0;
 }
 
 .middle-container {
 	height: auto;
-	min-height: 35em;
+	min-height: 40em;
 	width: 100%;
 	border: 1px solid blue;
 	margin-top: 20em;
@@ -143,7 +142,8 @@ footer {
 	}
   
 	footer {
-		display:inline;
+		display: inline-block;
+		width: 100%;
 	}
 	
 	.footer-column {
