@@ -27,7 +27,6 @@ footer {
 	height: auto;
 	min-height: 15em;
 	width: 100%;
-	border: 1px solid green;
 	background-color: #fcf7f0;
 }
 
@@ -46,7 +45,6 @@ footer {
 .top-container {
 	height: 20em;
 	width: 100%;
-	border: 1px solid red;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -54,7 +52,7 @@ footer {
 
 .middle-container {
 	height: auto;
-	min-height: 40em;
+	min-height: 37em;
 	width: 100%;
 	border: 1px solid blue;
 	margin-top: 20em;
@@ -83,7 +81,7 @@ footer {
 }
 
 .menu-button {
-	font-size: 2em;
+	font-size: 5em;
 	color: #181717;
 	background-color: red;
 	height: 0%;
@@ -127,7 +125,7 @@ footer {
 }
 
 .footer-column {
-	height: 15em;
+	height: 12em;
 	width: 25%;
 	margin: auto;
 	background-color: #fcf7f0;
@@ -152,6 +150,15 @@ footer {
 	font-size: 2em;
 	margin: 0.5em;
 	text-align: left;
+}
+
+.copyright {
+	height: 3em;
+	width: 100%;
+	color: #181717;
+	background-color: #fcf7f0;
+	text-align: center;
+	font-size: 2em;
 }
 
 @media only screen and (max-width: 600px) {
@@ -194,6 +201,7 @@ footer {
 		display: inline-block;
 		width: 60%;
 		margin: 1em 1em;
+		height: auto;
 	}
 	
 	.footer-menu-item {
