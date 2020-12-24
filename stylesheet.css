@@ -135,7 +135,7 @@ footer {
 	margin: auto;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
 	
 	html {
 		font-size: 50%;
@@ -146,12 +146,8 @@ footer {
 		width: 100%;
 	}
 	
-	.menu {
-		display: hidden;
-	}
-	
-	.menu-item {
-		display: hidden;
+	.menu-bar {
+		overflow: hidden;
 	}
 	
 	.footer-column {
@@ -166,3 +162,6 @@ footer {
 	}
   
 }
+
+
+
