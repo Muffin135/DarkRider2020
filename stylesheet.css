@@ -81,6 +81,14 @@ footer {
 	font-size: 2em;
 }
 
+.menu-button {
+	font-size: 2em;
+	color: black;
+	background-color: red;
+	height: 0%;
+	width: 0%;
+}
+
 .menu-bar {
 	height: 50%;
 	width: 100%;
@@ -147,8 +155,29 @@ footer {
 		width: 100%;
 	}
 	
-	.menu-bar {
-		overflow: hidden;
+	.menu {
+		display: none;
+	}
+	
+	.menu-button {
+		width: 10%;
+		height: 55%;
+		border: 2px solid black;
+	}
+	
+	.menu-item {
+		color: black;
+		background-color: inherit;
+		margin: 1em 1em;
+		font-size: 3em;
+		width: 100%;
+		height: auto;
+		transition: 0.5s;
+	}
+	
+	.menu-item:hover {
+		box-shadow: none;
+		border: none;
 	}
 	
 	.footer-column {
