@@ -24,7 +24,7 @@ body {
 
 footer {
 	height: 20em;
-	width: 100%;
+	width: 90%;
 	border: 1px solid green;
 }
 
@@ -35,16 +35,21 @@ footer {
 	justify-content: center;
 }
 
+.container {
+	height:100%;
+	width: 100%;
+}
+
 .top-container {
 	height: 20em;
-	width: 100%;
+	width: 90%;
 	border: 1px solid red;
 }
 
 .middle-container {
 	height: auto;
 	min-height: 35em;
-	width: 100%;
+	width: 90%;
 	border: 1px solid blue;
 }
 
