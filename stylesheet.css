@@ -60,7 +60,7 @@ footer {
 }
 
 .logo {
-	border: 1px solid black;
+	border-bottom: 2px solid black;
 	background-color: white;
 	height: 50%;
 	width: 100%;
@@ -68,7 +68,6 @@ footer {
 
 #page-title {
 	background-color: inherit;
-	border: 1px solid black;
 	color: black;
 	font-size: 5em;
 }
@@ -90,7 +89,6 @@ footer {
 
 .menu {
 	background-color: inherit;
-	border: 1px solid black;
 	list-style-type: none;
 	width: 100%;
 	height: 100%;
