@@ -146,6 +146,14 @@ footer {
 		width: 100%;
 	}
 	
+	.menu {
+		display: hidden;
+	}
+	
+	.menu-item {
+		display: hidden;
+	}
+	
 	.footer-column {
 		display: inline-block;
 		width: 60%;
