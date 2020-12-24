@@ -23,8 +23,9 @@ body {
 }
 
 footer {
-	height: 20em;
-	width: 90%;
+	height: auto;
+	min-height: 20em;
+	width: 100%;
 	border: 1px solid green;
 }
 
@@ -41,16 +42,21 @@ footer {
 }
 
 .top-container {
-	height: 20em;
-	width: 90%;
+	height: auto;
+	min-height: 20em;
+	width: 100%;
 	border: 1px solid red;
+	position: fixed;
+	top: 0;
+	left: 5;
 }
 
 .middle-container {
 	height: auto;
 	min-height: 35em;
-	width: 90%;
+	width: 100%;
 	border: 1px solid blue;
+	margin-top: 20em;
 }
 
 .logo {
@@ -116,7 +122,6 @@ footer {
 
 .footer-header {
 	background-color: inherit;
-	border: 1px solid black;
 	font-size: 3em;
 	margin: auto;
 }
@@ -125,12 +130,10 @@ footer {
 	background-color: inherit;
 	list-style-type: none;
 	margin: auto;
-	border: 1px solid black;
 }
 
 .footer-menu-item {
 	background-color: inherit;
-	border: 1px solid black;
 	font-size: 2em;
 	margin: auto;
 }
@@ -141,9 +144,15 @@ footer {
 		font-size: 50%;
 	}
   
+	footer {
+		display:inline;
+	}
+	
 	.footer-column {
 		display: inline-block;
+		width: 60%;
 		text-align: center;
+		margin: 1em 1em;
 	}
 	
 	.footer-header {
