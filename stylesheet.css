@@ -238,6 +238,14 @@ footer {
 		border: none;
 	}
 	
+	.store-item {
+		width: 100%;
+		height: 28rem;
+		color: #181717;
+		background-color: #fcf7f0;
+		margin: 2rem;
+	}
+	
 	.footer-column {
 		display: inline-block;
 		width: 60%;
