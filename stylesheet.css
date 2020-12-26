@@ -25,7 +25,7 @@ body {
 
 footer {
 	height: auto;
-	min-height: 15em;
+	min-height: 15rem;
 	width: 100%;
 	background-color: #fcf7f0;
 }
@@ -43,7 +43,8 @@ footer {
 }
 
 .top-container {
-	height: 20em;
+	height: auto;
+	min-height: 15rem;
 	width: 100%;
 	position: fixed;
 	top: 0;
@@ -52,14 +53,54 @@ footer {
 
 .middle-container {
 	height: auto;
-	min-height: 37em;
+	min-height: 37rem;
 	width: 100%;
 	border: 1px solid blue;
-	margin-top: 20em;
+	margin-top: 15rem;
+}
+
+.page-title {
+	width: 100%;
+	height: auto;
+	font-size: 4rem;
+	color: #181717;
+	background-color: #fcf7f0;
+}
+
+.store-item {
+	width: 68rem;
+	height: 28rem;
+	color: #181717;
+	background-color: #fcf7f0;
+	margin: 2rem;
+}
+
+.store-image {
+	height: 100%;
+	width: 40%;
+	border: 0.25em solid white;
+}
+
+.product-image {
+	height: 100%;
+	width: 100%;
+	background-image: url(https://github.com/Muffin135/Dark-Rider-Studios/blob/master/hoeing.png?raw=true);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.store-info {
+	height: 100%;
+	width: 60%;
+	background-color: blue;
+	margin: 0;
+	padding: 0;
+	border-left: 0.35rem solid #181717;
 }
 
 .logo {
-	border-bottom: 1em solid #181717;
+	border-bottom: 0.25rem solid #181717;
 	background-color: #fcf7f0;
 	height: 50%;
 	width: 100%;
@@ -68,7 +109,7 @@ footer {
 #page-title {
 	background-color: inherit;
 	color: #181717;
-	font-size: 5em;
+	font-size: 5rem;
 }
 
 #motto {
@@ -77,11 +118,11 @@ footer {
 	background-color: inherit;
 	color: #181717;
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.5rem;
 }
 
 .menu-button {
-	font-size: 5em;
+	font-size: 5rem;
 	color: #181717;
 	background-color: red;
 	height: 0%;
@@ -102,9 +143,9 @@ footer {
 }
 
 .menu-link {
-	margin: 1em 1em;
-	border: 0.1em solid #181717;
-	font-size: 3em;
+	margin: 1rem 1rem;
+	border: 0.25rem solid #181717;
+	font-size: 3rem;
 	width: 15%;
 	height: auto;
 	transition: 0.5s;
@@ -117,15 +158,15 @@ footer {
 }
 
 .menu-link:hover {
-	box-shadow: 0.25em 0.25em #181717;
+	box-shadow: 0.25rem 0.25rem #181717;
 }
 
 .menu-link:focus {
-	box-shadow: 0.25em 0.25em #181717;
+	box-shadow: 0.25rem 0.25rem #181717;
 }
 
 .footer-column {
-	height: 12em;
+	height: 12rem;
 	width: 25%;
 	margin: auto;
 	background-color: #fcf7f0;
@@ -135,7 +176,7 @@ footer {
 
 .footer-header {
 	background-color: inherit;
-	font-size: 3em;
+	font-size: 3rem;
 	margin: auto;
 }
 
@@ -147,13 +188,13 @@ footer {
 
 .footer-menu-item {
 	background-color: inherit;
-	font-size: 2em;
-	margin: 0.5em;
+	font-size: 2rem;
+	margin: 0.5rem;
 	text-align: left;
 }
 
 .copyright {
-	height: 3em;
+	height: 3rem;
 	width: 100%;
 	color: #181717;
 	background-color: #fcf7f0;
@@ -185,8 +226,8 @@ footer {
 	.menu-item {
 		color: #181717;
 		background-color: inherit;
-		margin: 1em 1em;
-		font-size: 3em;
+		margin: 1rem 1rem;
+		font-size: 3rem;
 		width: 100%;
 		height: auto;
 		transition: 0.5s;
@@ -200,7 +241,7 @@ footer {
 	.footer-column {
 		display: inline-block;
 		width: 60%;
-		margin: 1em 1em;
+		margin: 1rem 1rem;
 		height: auto;
 	}
 	
